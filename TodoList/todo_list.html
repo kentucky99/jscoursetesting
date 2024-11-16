@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <h1>ToDo List</h1>
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+
+    <!-- <input type="text" id="searchInput" placeholder="Search..."> -->
+    <ul id="taskList">
+        <!-- Tasks will be displayed here -->
+    </ul>
+
+    <button id="clearCompletedBtn" onclick="displayTasks()">Clear Completed</button>
+    <script src="./todo_list.js"></script>
+
+    <h2>Heading 2</h2>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <script>
+        const paragraphElements = document.getElementsByTagName('p');
+        console.log((paragraphElements[0]));
+    </script>
+</body>
+
+</html>
